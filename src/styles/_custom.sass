@@ -17,3 +17,27 @@
 
   100%
     transform: translateY(0px)
+
+.titulo-principal__numero 
+  background-color: $color-acento-botones
+  span
+    color: $color-sistema-texto
+  
+.titulo-sexto
+  .titulo-principal__numero
+    min-width: auto
+    height: auto
+    span
+      font-size: 1.5rem
+.fw-600
+  font-weight: 600
+
+@media screen and (max-width: 991px)
+  .center-figure
+    display: flex
+    flex-direction: column
+    align-content: center
+    justify-content: center
+    align-items: center
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    top: 88% !important  
