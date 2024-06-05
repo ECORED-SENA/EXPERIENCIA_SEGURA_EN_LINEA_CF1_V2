@@ -121,4 +121,10 @@ export default {
   },
 }
 </script>
-<style lang="sass"></style>
+<style lang="sass">
+@media screen and (max-width: 600px)
+  .slyder-a__bullets__item
+    margin: 0 3px
+  .slyder-a__tipo-a .slyder-a__bullets
+    bottom: 2px
+</style>

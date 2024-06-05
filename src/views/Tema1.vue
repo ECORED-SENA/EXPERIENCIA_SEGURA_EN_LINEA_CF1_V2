@@ -23,7 +23,7 @@
             .bloque-texto-f__avatar__img
               img(src='@/assets/curso/1.svg', alt='Texto que describa la imagen')
     .row.mb-5.align-items-end
-      .col-lg-7(data-aos="slide-right"): img(src='@/assets/curso/2.svg')
+      .col-lg-7(data-aos="slide-right"): img(src='@/assets/curso/2.svg' alt="¿Sabía que en los últimos años el concepto de ciberseguridad se ha convertido en un estándar y en una necesidad en todas las organizaciones?")
       .col-lg-5(data-aos="slide-left")
         p.mb-0 Esto se da porque cada vez más y con mayor frecuencia se recurre al uso de las tecnologías de la información y las comunicaciones para apalancar los procesos operativos junto con las propuestas de valor de los negocios. 
           br
@@ -204,7 +204,7 @@
           .col-md-11
             .row.p-3
               .col-md-6.col-lg-5.mb-4.mb-md-0
-                p De acuerdo con el NIST (s.f) “el marco de trabajo es una guía voluntaria, basada en estándares, directrices y prácticas existentes para que las organizaciones de infraestructura crítica gestionen mejor y reduzcan el riesgo de ciberseguridad. Además, se diseñó para fomentar las comunicaciones de gestión del riesgo y la seguridad cibernética entre los interesados internos y externos de la organización “. Eso quiere decir que los objetivos del marco de trabajo en su implementación en una organización se podrían catalogar en los siguientes puntos:
+                p De acuerdo con el NIST (s.f) “el marco de trabajo es una guía voluntaria, basada en estándares, directrices y prácticas existentes para que las organizaciones de infraestructura crítica gestionen mejor y reduzcan el riesgo de ciberseguridad. Además, se diseñó para fomentar las comunicaciones de gestión del riesgo y la seguridad cibernética entre los interesados internos y externos de la organización“. Eso quiere decir que los objetivos del marco de trabajo en su implementación en una organización se podrían catalogar en los siguientes puntos:
                 h5 Todo esto enmarcado en un enfoque orientado a la gestión del riesgo.
               .col-md-6.col-lg-7
                 figure
@@ -231,7 +231,7 @@
       br
       |Es una guía de mejores prácticas, dirigida al control y supervisión de TI. Cuenta con una serie de recursos que pueden servir de modelo de referencia para la gestión de TI, incluyendo objetivos de control, mapas de auditoría, herramientas para su implementación y una guía de técnicas de gestión, como se puede ver en la siguiente figura:
     .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-      p.mb-0 <b>Figura 2</b> / Marco COBIT.
+      p.mb-0 <b>Figura 2</b> / Marco COBIT
     .row.mb-5.justify-content-center(data-aos="zoom-in-up")
       .col-lg-8
         img(src='@/assets/curso/18.jpg', alt='Imagen que presenta el Marco COBIT.')
@@ -406,8 +406,8 @@
         p.fw-bold.mb-0 Disponibilidad.
     .row.mb-5
       .col-lg-7(data-aos="fade-right")
-        p.mb-5 Observe que siempre realizamos énfasis en la triada de la información como principio para el tratamiento de los datos; esta clasificación también revisa el impacto que tendrá cada uno de los principios en caso de ser vulnerado y el impacto en las personas o empresas en el suceso.
-        .cajon.color-acento-contenido.bg__1-claro.p-5.mb-4
+        p.mb-5 Observe que siempre realizamos énfasis en la tríada de la información como principio para el tratamiento de los datos; esta clasificación también revisa el impacto que tendrá cada uno de los principios en caso de ser vulnerado y el impacto en las personas o empresas en el suceso.
+        .cajon.color-acento-contenido.bg__1-claro.p-5.mb-4(style="background-color:#CCE4FB;")
           p Debemos tener siempre presentes los riesgos informáticos, los cuales son todo tipo de vulnerabilidades, amenazas que pueden ocurrir sin previo aviso y producir numerosas pérdidas para las empresas o las personas. Los riesgos más perjudiciales son a las tecnologías de información y comunicaciones, como por ejemplo, la pérdida de datos debido a daño en los discos, virus informáticos, entre otros.
       .col-lg-5(data-aos="fade-left")
         img(src='@/assets/curso/37.svg' style='width: 369px').m-auto
@@ -495,44 +495,44 @@
       .col-lg-5(data-aos="fade-left")
         p Para determinar cómo tratarlo y las acciones de mitigación a realizar, tenga en cuenta lo siguiente:
         ol.lista-ol--cuadro
-          li 
+          li.d-flex
             .lista-ol--cuadro__vineta
               span 1
-            | Revisar las políticas de seguridad.
-          li 
+            div Revisar las políticas de seguridad.
+          li.d-flex
             .lista-ol--cuadro__vineta
               span 2
-            | Actualizar todos los filtros y antivirus.
-          li 
+            div Actualizar todos los filtros y antivirus.
+          li.d-flex
             .lista-ol--cuadro__vineta
               span 3
-            | Ajustar y cambiar de contraseñas de manera periódica.
+            div Ajustar y cambiar de contraseñas de manera periódica.
           li.d-flex
             .lista-ol--cuadro__vineta
               span 4
             div Instalar #[em firewalls].
-          li 
+          li.d-flex
             .lista-ol--cuadro__vineta
               span 5
-            | Reservar datos, no compartir contraseñas.
-          li 
+            div Reservar datos, no compartir contraseñas.
+          li.d-flex
             .lista-ol--cuadro__vineta
               span 6
-            | No compartir cuentas y contraseñas de acceso a cuentas o recursos.
+            div No compartir cuentas y contraseñas de acceso a cuentas o recursos.
     p.mb-5 Con relación a las redes sociales se dispone el siguiente paso:
-    .row.mb-5
+    .row.mb-5(style="background-color:#CCE4FB;")
       .col-lg-6(data-aos="fade-right")
         .tarjeta-adorno.bg__1.p-4.mt-5.d-flex.align-items-center
           .tarjeta-adorno_imagen
             img(src='@/assets/curso/50.svg' style='width: 127px')
           .tarjeta-adorno_contenido.px-4.py-2
-            p.text-white.mb-0 No aceptar invitaciones de personas o perfiles que no reconozca.
+            p.mb-0 No aceptar invitaciones de personas o perfiles que no reconozca.
       .col-lg-6(data-aos="fade-left")
         .tarjeta-adorno.bg__1.p-4.mt-5.d-flex.align-items-center
           .tarjeta-adorno_imagen
             img(src='@/assets/curso/51.svg' style='width: 127px')
           .tarjeta-adorno_contenido.px-4.py-2
-            p.text-white.mb-0 Revisar los contenidos antes de compartirlos para evitar problemas de seguridad.
+            p.mb-0 Revisar los contenidos antes de compartirlos para evitar problemas de seguridad.
     p.mb-4 Se deben tener los controles de manera preventiva antes de tener que actuar con los correctivos.
       br
       br
@@ -564,7 +564,7 @@
         .col.ps-0
           .h-100.p-3.d-flex.align-content-center(style="background-color:#CCE4FB;")
             strong.pe-3 03
-            p.mb-0 Asumir el riesgo, se da cuando algún riesgo puede ser aceptados ya que su impacto no es tan alto o porque mitigarlo puede resultar demasiado costoso. 
+            p.mb-0 Asumir el riesgo, se da cuando algún riesgo puede ser aceptados, ya que su impacto no es tan alto o porque mitigarlo puede resultar demasiado costoso. 
       .row
         .col-auto.pe-0
           .h-100.p-2.d-flex.align-content-center.flex-wrap(style="background-color:#35EBC0;border-radius:0px 0px 0px 15px;")
@@ -597,7 +597,8 @@ export default {
 }
 </script>
 <style lang="sass">
-
+.bloque-texto-f:before
+  background-color: #ffd947
 .contenedor-tarjetas
   display: flex
   flex-wrap: wrap
@@ -648,4 +649,10 @@ export default {
         transform: translate(30%, -10%)
     &_contenido
       width: 70%
+.slyder-a__tipo-a .slyder-a__bullets
+  bottom: 0px
+.acordion .tarjeta
+  background-color: #03E6B0
+.acordion__activo
+  background-color: #9AF5DF !important
 </style>

@@ -10,8 +10,8 @@
             img(src="@/assets/template/arrastrar.svg", alt="Imagen decorativa")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Actividad didáctica 1
-        p.mb-4 La actividad planteada consiste en organizar dos columnas, en una se deben poner los términos y en otra columna aparte las definiciones, el objetivo es que el aprendiz haga la unión entre término y definición, de esta manera podrá hacer un repaso general del desarrollo de este primer componente formativo.
+          h2 Ciberseguridad y redes sociales
+        p.mb-4 Afianzar algunos de los conceptos más importantes de la ciberseguridad y las redes sociales.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

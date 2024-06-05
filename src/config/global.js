@@ -147,10 +147,9 @@ export default {
   },
   complementario: [
     {
-      tema:
-        'Dimensión Tecnológica. (2023). <em></em>Qué es la CIBERSEGURIDAD, Explicación y Ejemplos</em></em> (video). YouTube. ',
+      tema: 'Ciberseguridad',
       referencia:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
+        'Dimensión Tecnológica. (2023). <em>Qué es la CIBERSEGURIDAD, Explicación y Ejemplos</em> (video). YouTube',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=dmrlfWp9bBc',
     },

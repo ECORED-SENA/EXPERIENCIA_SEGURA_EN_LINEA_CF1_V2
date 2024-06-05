@@ -36,6 +36,8 @@ export default {
 }
 </script>
 <style lang="sass">
+.tarjeta-escudo
+  background-color: #ffd947
 .escudo
   @media (min-width: $bp-min-xl)
     position: absolute
