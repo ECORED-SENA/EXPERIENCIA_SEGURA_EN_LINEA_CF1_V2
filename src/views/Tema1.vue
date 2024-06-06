@@ -416,7 +416,7 @@
         img(src='@/assets/curso/38.svg')
       .col-md-6(data-aos="fade-left")
         p.mb-0 Cada amenaza es diferente y no todas tienen el mismo impacto en el sistema de seguridad de los sistemas informáticos, hay exigencias elevadas y exigencias que no son tan peligrosas, pero el sistema de información y riesgo se debe encargar de todas estas amenazas de manera consciente y firme, es por eso que las partes trabajan en integrar los tipos de riesgo en tres niveles, estableciendo de esa forma la exigencia o nivel en función de la seguridad.
-    .tarjeta.bg__4-claro.p-4.mb-5
+    .tarjeta.bg__4-claro.p-4.mb-5(style="background-color:#fff3c7 !important;")
       SlyderA
         .row.p-4.justify-content-center
           .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
