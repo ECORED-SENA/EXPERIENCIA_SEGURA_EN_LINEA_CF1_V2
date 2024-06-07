@@ -231,7 +231,7 @@
       br
       |Es una guía de mejores prácticas, dirigida al control y supervisión de TI. Cuenta con una serie de recursos que pueden servir de modelo de referencia para la gestión de TI, incluyendo objetivos de control, mapas de auditoría, herramientas para su implementación y una guía de técnicas de gestión, como se puede ver en la siguiente figura:
     .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-      p.mb-0 <b>Figura 2</b> / Marco COBIT
+      p.mb-0 <b>Figura 2.</b> Marco COBIT
     .row.mb-5.justify-content-center(data-aos="zoom-in-up")
       .col-lg-8
         img(src='@/assets/curso/18.jpg', alt='Imagen que presenta el Marco COBIT.')
@@ -254,7 +254,7 @@
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/iJOOfpo1SdM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Ciberseguridad y Seguridad de la Información: triada
+      figcaption Ciberseguridad y Seguridad de la Información: tríada
     Separador
     #t_1_3.titulo-segundo(data-aos="fade-right")
       h2 1.3 Amenazas     
@@ -310,7 +310,7 @@
           p Un virus informático es un tipo de programa o código malicioso escrito para modificar el funcionamiento de un equipo, siempre está oculto en un #[em software] o sitio web legítimo, infecta el ordenador y puede extenderse a todos los que se encuentran en su lista de contactos.
     #t_1_4.titulo-segundo(data-aos="fade-right")
       h2 1.4 Vulnerabilidades 
-    p.mb-5 Una vulnerabilidad informática es una debilidad en el #[em software] o en el #[em hardware] que permite a un posible atacante comprometer cualquiera de los elementos de la triada de la seguridad, como es la integridad, disponibilidad o confidencialidad del sistema o de los datos que procesa.
+    p.mb-5 Una vulnerabilidad informática es una debilidad en el #[em software] o en el #[em hardware] que permite a un posible atacante comprometer cualquiera de los elementos de la tríada de la seguridad, como es la integridad, disponibilidad o confidencialidad del sistema o de los datos que procesa.
     .row.mb-5.align-items-end
       .col-md-6(data-aos="fade-right")
         img(src='@/assets/curso/28.svg')
