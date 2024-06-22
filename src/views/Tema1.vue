@@ -253,8 +253,8 @@
       |El siguiente video nos presenta, de forma más completa, este concepto.
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/iJOOfpo1SdM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Ciberseguridad y Seguridad de la Información: tríada
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/yax-5QX80T0?si=MzJ-2wScAkeOaPWy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Tríada de la Seguridad de la Información
     Separador
     #t_1_3.titulo-segundo(data-aos="fade-right")
       h2 1.3 Amenazas     

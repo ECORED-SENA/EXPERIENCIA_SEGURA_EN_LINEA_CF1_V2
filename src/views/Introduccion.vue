@@ -21,7 +21,7 @@
     p.mb-5(data-aos="fade-right") Estas preguntas y muchas más serán respondidas a lo largo del componente formativo, pero para comenzar, lo invitamos a ver el siguiente video.
     figure.mb-5(data-aos="fade-up")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/oHGhb7QoRik" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/fMhs0mUih78?si=oFAAkTiic17_UUuo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Ciberseguridad y Seguridad de la Información: introducción
 
     
