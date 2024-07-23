@@ -23,7 +23,7 @@
             .bloque-texto-f__avatar__img
               img(src='@/assets/curso/1.svg', alt='Texto que describa la imagen')
     .row.mb-5.align-items-end
-      .col-lg-7(data-aos="slide-right"): img(src='@/assets/curso/2.svg' alt="¿Sabía que en los últimos años el concepto de ciberseguridad se ha convertido en un estándar y en una necesidad en todas las organizaciones?")
+      .col-lg-7.mb-4.mb-lg-0(data-aos="slide-right"): img(src='@/assets/curso/2.svg' alt="¿Sabía que en los últimos años el concepto de ciberseguridad se ha convertido en un estándar y en una necesidad en todas las organizaciones?")
       .col-lg-5(data-aos="slide-left")
         p.mb-0 Esto se da porque cada vez más y con mayor frecuencia se recurre al uso de las tecnologías de la información y las comunicaciones para apalancar los procesos operativos junto con las propuestas de valor de los negocios. 
           br
@@ -33,9 +33,9 @@
       br
       br
       |Protegerse de los peligros de la actual coyuntura tecnológica, conlleva a diseñar y adoptar una serie de procesos que posibiliten la protección de los activos, recursos e información personal y empresarial de todos los seres digitales y para ello se recomienda la aplicación de las siguientes fases como paso inicial:
-    .row.mb-5.justify-content-center(data-aos="zoom-in-up")
+    .row.justify-content-center(data-aos="zoom-in-up")
       .col-lg-10
-        PasosA.color-acento-contenido.mb-5(tipo="n")
+        PasosA.color-acento-contenido(tipo="n")
           .row
             .col-md-6.mb-4.mb-md-0
               h4 Prevención
@@ -53,9 +53,8 @@
                 br
                 br
                 |Esto se logra cuando las medidas y herramientas empleadas están haciendo un constante monitoreo y gestión sobre los recursos tecnológicos. Normalmente, cuando se detectan los incidentes, estos ya han ocurrido muchos días antes, esto es debido a que los delincuentes cada vez utilizan más herramientas y estrategias que dificultan su detección, de ahí la importancia de una constante monitorización sobre los recursos y servicios tecnológicos.
-
           .row
-            .col-md-12.mb-4.mb-md-0
+            .col-md-12
               h4 Reacción
               p Una vez se detecte una posible amenaza se debe realizar una reacción inmediata que permita su mitigación, para esto se recomienda seguir los siguientes pasos:
               .contenedor-tarjetas.justify-content-center(data-aos="zoom-in-down")
@@ -78,9 +77,9 @@
     Separador
     #t_1_1.titulo-segundo(data-aos="fade-right")
       h2 1.1 Marcos de referencia
-    p.mb-5 Los ataques cibernéticos son cada vez más comunes y frecuentes, como se mencionó anteriormente, debido a la inmersión de la tecnología en todos los procesos, tanto personales como empresariales; es clara la necesidad de protección en recursos, información y activos, sin embargo, el inicio puede ser lejano y para eso se hace el siguiente planteamiento:
-    .row.mb-5.align-items-center
-      .col-lg-7(data-aos="slide-right"): img(src='@/assets/curso/11.svg')
+    p.mb-4 Los ataques cibernéticos son cada vez más comunes y frecuentes, como se mencionó anteriormente, debido a la inmersión de la tecnología en todos los procesos, tanto personales como empresariales; es clara la necesidad de protección en recursos, información y activos, sin embargo, el inicio puede ser lejano y para eso se hace el siguiente planteamiento:
+    .row.mb-4.align-items-center
+      .col-lg-7.mb-4.mb-lg-0(data-aos="slide-right"): img(src='@/assets/curso/11.svg')
       .col-lg-5(data-aos="slide-left")
         p.mb-0 Es ahí donde cobran importancia los marcos de referencia que se han venido desarrollando, porque con la adopción de estos marcos se tendrá clara y en orden, toda la información de valor y útil en el diseño de las estrategias de control y mitigación de riesgos de ciberseguridad.
     p.mb-5 Si bien se debe elegir un marco y trabajar con él, son solo una referencia y no una solución definitiva porque también es importante el enfoque del análisis de riesgos del cual se dará información más adelante. Son varios marcos, cada marco propone una serie de controles diferentes. Se debe elegir por su parte el marco indicado aplicable a su entorno y si se llegase a requerir algún ajuste se puede importar de alguno de los otros marcos y generar su propio marco de seguridad, es así como funciona esta información que con su prudente apropiación logra protección alta.
@@ -88,127 +87,108 @@
       br
       |A continuación, se mencionan los marcos de referencia más utilizados y de mayor desarrollo, incluyendo algunos propósitos particulares para su adopción.
     
-    .titulo-sexto.color-acento-botones.d-flex.align-items-center(data-aos="fade-right")
+    .titulo-sexto.color-acento-botones.d-flex.align-items-center.mb-5(data-aos="fade-right")
       .titulo-principal__numero.p-3
         span.text-white.h5 1
       h5 El primer marco es el dispuesto desde Norteamérica como CSF (#[em Cybersecurity Framework])
-    
-    .tarjeta.tarjeta--azul.p-4.mb-5(data-aos="zoom-in-up")
-      SlyderA
-        .row.justify-content-center.p-3
-          .col-md-11
-            .row
-              .col-md-6.mb-4.mb-md-0
-                h4 NIST CSF (#[em National Institute of Standards and Technology - Cybersecurity Framework]) - Marco de Ciberseguridad del Instituto Nacional de Estándares y Tecnología.
-                p Este marco establece una guía en la que cualquier empresa pueda recibir, comprender, administrar y reducir los riesgos cibernéticos junto con sus redes y datos. Este marco permite la comprensión del lenguaje común y enfoca buenas prácticas en ciberseguridad.
-                  br
-                  br
-                  |El Instituto Nacional de Normas y Tecnología (NIST), una agencia perteneciente al Departamento de Comercio de los Estados Unidos, desarrolló este marco, el cual utiliza un lenguaje cómodo que guía a las compañías en general, a gestionar algún impacto negativo de seguridad digital y así fortalecer la información.
-              .col-md-6
-                figure
-                  img(src='@/assets/curso/12.svg', alt='Texto que describa la imagen')
-        .row.justify-content-center.p-3
-          .col-md-11
-            .row.p-3.align-items-center
-              .col-md-6.mb-4.mb-md-0
-                p Este marco no provee nuevas estructuras, más funciones de ciberseguridad, ni incrementa categorías, solo reúne las mejores prácticas conocidas al respecto como lo son ISO, ITU, CIS, NIST, entre otros; y las agrupa según afinidad. Se centra en el uso de lanzadores para guiar las actividades de seguridad digital de las empresas considerando los riesgos de la información como parte importante en la gestión de los riesgos.
-              .col-md-6
-                figure
-                  img(src='@/assets/curso/13.svg', alt='Imagen que presenta las mejores prácticas, como son: Identificar. Comprender el contexto, conocer los datos, los activos y los riesgos.Proteger. Aplicación de controles (técnicos, políticas, procesos) para mitigar riesgos.Detectar. Monitoreo y control.Responder. Reducir el impacto de un impacto potencial.Recuperar. Resiliencia y recuperación ante incidentes.')
-        .row.justify-content-center.p-3
-          .col-md-11
-            .row.p-3.align-items-end
-              .col-md-6.mb-4.mb-md-0
-                p El #[em Framework] Core comprende un conjunto de actividades de ciberseguridad, resultados y referencias informativas que son comunes a través de los sectores de infraestructura crítica. Así, proporciona la orientación detallada para el desarrollo de perfiles individuales de la compañía. Mediante el uso de los perfiles, el marco ayudará a la organización a alinear sus actividades de ciberseguridad con sus requisitos de negocio, tolerancias de riesgo y recursos. Por su parte, los niveles de implementación del marco (#[em tiers]) proporcionan un mecanismo para que las empresas puedan ver y comprender las características de su enfoque para la gestión del riesgo de ciberseguridad.
-              .col-md-6
-                figure
-                  img(src='@/assets/curso/14.jpg', alt='Texto que describa la imagen')
-        .row.justify-content-center.p-3
-          .col-md-11
-            div.p-3
-              p.mb-4 Las bases del marco CSF son:
-              .row
-                .col-auto.pe-0
-                  .h-100.p-2.d-flex.align-content-center.flex-wrap(style="background-color:#0077EC;")
-                    figure
-                      img(src="@/assets/curso/79.svg")
-                .col.ps-0
-                  .h-100.p-3.d-flex.align-content-center(style="background-color:#CCE4FB;")
-                    strong.pe-3 01
-                    p.mb-0 Identificar estándares de seguridad y guías aplicables de forma trasversal a todos los sectores de infraestructuras críticas.
-              .row
-                .col-auto.pe-0
-                  .h-100.p-2.d-flex.align-content-center.flex-wrap(style="background-color:#03E6B0;")
-                    figure
-                      img(src="@/assets/curso/80.svg")
-                .col.ps-0
-                  .h-100.p-3.d-flex.align-content-center(style="background-color:#9AF5DF;")
-                    strong.pe-3 02
-                    p.mb-0 Establecer un lenguaje común para gestionar riesgos de ciberseguridad.
-              .row
-                .col-auto.pe-0
-                  .h-100.p-2.d-flex.align-content-center.flex-wrap(style="background-color:#0077EC;")
-                    figure
-                      img(src="@/assets/curso/79.svg")
-                .col.ps-0
-                  .h-100.p-3.d-flex.align-content-center(style="background-color:#CCE4FB;")
-                    strong.pe-3 03
-                    p.mb-0 Proveer un enfoque priorizado, flexible, repetible, neutral, basado en desempeño y efectivo en términos de coste-beneficio basado en las necesidades del negocio.
-              .row
-                .col-auto.pe-0
-                  .h-100.p-2.d-flex.align-content-center.flex-wrap(style="background-color:#03E6B0;")
-                    figure
-                      img(src="@/assets/curso/80.svg")
-                .col.ps-0
-                  .h-100.p-3.d-flex.align-content-center(style="background-color:#9AF5DF;")
-                    strong.pe-3 04
-                    p.mb-0 Ayudar a los responsables y operadores de infraestructuras críticas a identificar, inventariar y gestionar riesgos informáticos.
-              .row
-                .col-auto.pe-0
-                  .h-100.p-2.d-flex.align-content-center.flex-wrap(style="background-color:#0077EC;")
-                    figure
-                      img(src="@/assets/curso/79.svg")
-                .col.ps-0
-                  .h-100.p-3.d-flex.align-content-center(style="background-color:#CCE4FB;")
-                    strong.pe-3 05
-                    p.mb-0 Establecer criterios para la definición de métricas para el control del desempeño en la implementación.
-              .row
-                .col-auto.pe-0
-                  .h-100.p-2.d-flex.align-content-center.flex-wrap(style="background-color:#03E6B0;")
-                    figure
-                      img(src="@/assets/curso/80.svg")
-                .col.ps-0
-                  .h-100.p-3.d-flex.align-content-center(style="background-color:#9AF5DF;")
-                    strong.pe-3 06
-                    p.mb-0 Establecer controles para proteger la propiedad intelectual, la privacidad de los individuos y las libertades civiles cuando se ejecuten actividades de ciberseguridad.
-              .row
-                .col-auto.pe-0
-                  .h-100.p-2.d-flex.align-content-center.flex-wrap(style="background-color:#0077EC;")
-                    figure
-                      img(src="@/assets/curso/79.svg")
-                .col.ps-0
-                  .h-100.p-3.d-flex.align-content-center(style="background-color:#CCE4FB;")
-                    strong.pe-3 07
-                    p.mb-0 Identificar áreas de mejora que permitan ser gestionadas a través de colaboraciones futuras con sectores particulares y organizaciones orientadas al desarrollo de estándares.
-              .row
-                .col-auto.pe-0
-                  .h-100.p-2.d-flex.align-content-center.flex-wrap(style="background-color:#03E6B0;")
-                    figure
-                      img(src="@/assets/curso/80.svg")
-                .col.ps-0
-                  .h-100.p-3.d-flex.align-content-center(style="background-color:#9AF5DF;")
-                    strong.pe-3 08
-                    p.mb-0 No introducir nuevos estándares cuando existan iniciativas ya desarrolladas que cubran los objetivos de la orden ejecutiva.
-                
-        .row.justify-content-center.p-3
-          .col-md-11
-            .row.p-3
-              .col-md-6.col-lg-5.mb-4.mb-md-0
-                p De acuerdo con el NIST (s.f) “el marco de trabajo es una guía voluntaria, basada en estándares, directrices y prácticas existentes para que las organizaciones de infraestructura crítica gestionen mejor y reduzcan el riesgo de ciberseguridad. Además, se diseñó para fomentar las comunicaciones de gestión del riesgo y la seguridad cibernética entre los interesados internos y externos de la organización“. Eso quiere decir que los objetivos del marco de trabajo en su implementación en una organización se podrían catalogar en los siguientes puntos:
-                h5 Todo esto enmarcado en un enfoque orientado a la gestión del riesgo.
-              .col-md-6.col-lg-7
-                figure
-                  img(src='@/assets/curso/16.svg', alt='Imagen que presenta los puntos a tener en cuenta en la implementación de los objetivos del marco de trabajo en una organización.')
+
+    .row.align-items-center.mb-4.mb-lg-0
+      .col-lg-6.mb-4.mb-lg-0
+        h4 NIST CSF (#[em National Institute of Standards and Technology - Cybersecurity Framework]) - Marco de Ciberseguridad del Instituto Nacional de Estándares y Tecnología.
+        p Este marco establece una guía en la que cualquier empresa pueda recibir, comprender, administrar y reducir los riesgos cibernéticos junto con sus redes y datos. Este marco permite la comprensión del lenguaje común y enfoca buenas prácticas en ciberseguridad.
+          br
+          br
+          |El Instituto Nacional de Normas y Tecnología (NIST), una agencia perteneciente al Departamento de Comercio de los Estados Unidos, desarrolló este marco, el cual utiliza un lenguaje cómodo que guía a las compañías en general, a gestionar algún impacto negativo de seguridad digital y así fortalecer la información.
+      .col-lg-6
+        figure
+          img(src='@/assets/curso/12.svg', style="width: 550px" alt='Texto que describa la imagen').mx-auto
+    .row.align-items-center.mb-4
+      .col-lg-5.order-2.order-lg-1
+        figure
+          img(src='@/assets/curso/13.svg', style="width: 500px" alt='Imagen que presenta las mejores prácticas, como son: Identificar. Comprender el contexto, conocer los datos, los activos y los riesgos.Proteger. Aplicación de controles (técnicos, políticas, procesos) para mitigar riesgos.Detectar. Monitoreo y control.Responder. Reducir el impacto de un impacto potencial.Recuperar. Resiliencia y recuperación ante incidentes.').m-auto
+      .col-lg-7.mb-4.mb-lg-0.order-1.order-lg-2
+        p Este marco no provee nuevas estructuras, más funciones de ciberseguridad, ni incrementa categorías, solo reúne las mejores prácticas conocidas al respecto como lo son ISO, ITU, CIS, NIST, entre otros; y las agrupa según afinidad. Se centra en el uso de lanzadores para guiar las actividades de seguridad digital de las empresas considerando los riesgos de la información como parte importante en la gestión de los riesgos.
+        p.mb-0 El #[em Framework] Core comprende un conjunto de actividades de ciberseguridad, resultados y referencias informativas que son comunes a través de los sectores de infraestructura crítica. Así, proporciona la orientación detallada para el desarrollo de perfiles individuales de la compañía. Mediante el uso de los perfiles, el marco ayudará a la organización a alinear sus actividades de ciberseguridad con sus requisitos de negocio, tolerancias de riesgo y recursos. Por su parte, los niveles de implementación del marco (#[em tiers]) proporcionan un mecanismo para que las empresas puedan ver y comprender las características de su enfoque para la gestión del riesgo de ciberseguridad.
+    p.mb-4 Las bases del marco CSF son:
+    .row
+      .col-auto.pe-0
+        .h-100.p-2.d-flex.align-content-center.flex-wrap(style="background-color:#0077EC;")
+          figure
+            img(src="@/assets/curso/79.svg")
+      .col.ps-0
+        .h-100.p-3.d-flex.align-content-center(style="background-color:#CCE4FB;")
+          strong.pe-3 01
+          p.mb-0 Identificar estándares de seguridad y guías aplicables de forma trasversal a todos los sectores de infraestructuras críticas.
+    .row
+      .col-auto.pe-0
+        .h-100.p-2.d-flex.align-content-center.flex-wrap(style="background-color:#03E6B0;")
+          figure
+            img(src="@/assets/curso/80.svg")
+      .col.ps-0
+        .h-100.p-3.d-flex.align-content-center(style="background-color:#9AF5DF;")
+          strong.pe-3 02
+          p.mb-0 Establecer un lenguaje común para gestionar riesgos de ciberseguridad.
+    .row
+      .col-auto.pe-0
+        .h-100.p-2.d-flex.align-content-center.flex-wrap(style="background-color:#0077EC;")
+          figure
+            img(src="@/assets/curso/79.svg")
+      .col.ps-0
+        .h-100.p-3.d-flex.align-content-center(style="background-color:#CCE4FB;")
+          strong.pe-3 03
+          p.mb-0 Proveer un enfoque priorizado, flexible, repetible, neutral, basado en desempeño y efectivo en términos de coste-beneficio basado en las necesidades del negocio.
+    .row
+      .col-auto.pe-0
+        .h-100.p-2.d-flex.align-content-center.flex-wrap(style="background-color:#03E6B0;")
+          figure
+            img(src="@/assets/curso/80.svg")
+      .col.ps-0
+        .h-100.p-3.d-flex.align-content-center(style="background-color:#9AF5DF;")
+          strong.pe-3 04
+          p.mb-0 Ayudar a los responsables y operadores de infraestructuras críticas a identificar, inventariar y gestionar riesgos informáticos.
+    .row
+      .col-auto.pe-0
+        .h-100.p-2.d-flex.align-content-center.flex-wrap(style="background-color:#0077EC;")
+          figure
+            img(src="@/assets/curso/79.svg")
+      .col.ps-0
+        .h-100.p-3.d-flex.align-content-center(style="background-color:#CCE4FB;")
+          strong.pe-3 05
+          p.mb-0 Establecer criterios para la definición de métricas para el control del desempeño en la implementación.
+    .row
+      .col-auto.pe-0
+        .h-100.p-2.d-flex.align-content-center.flex-wrap(style="background-color:#03E6B0;")
+          figure
+            img(src="@/assets/curso/80.svg")
+      .col.ps-0
+        .h-100.p-3.d-flex.align-content-center(style="background-color:#9AF5DF;")
+          strong.pe-3 06
+          p.mb-0 Establecer controles para proteger la propiedad intelectual, la privacidad de los individuos y las libertades civiles cuando se ejecuten actividades de ciberseguridad.
+    .row
+      .col-auto.pe-0
+        .h-100.p-2.d-flex.align-content-center.flex-wrap(style="background-color:#0077EC;")
+          figure
+            img(src="@/assets/curso/79.svg")
+      .col.ps-0
+        .h-100.p-3.d-flex.align-content-center(style="background-color:#CCE4FB;")
+          strong.pe-3 07
+          p.mb-0 Identificar áreas de mejora que permitan ser gestionadas a través de colaboraciones futuras con sectores particulares y organizaciones orientadas al desarrollo de estándares.
+    .row.mb-4
+      .col-auto.pe-0
+        .h-100.p-2.d-flex.align-content-center.flex-wrap(style="background-color:#03E6B0;")
+          figure
+            img(src="@/assets/curso/80.svg")
+      .col.ps-0
+        .h-100.p-3.d-flex.align-content-center(style="background-color:#9AF5DF;")
+          strong.pe-3 08
+          p.mb-0 No introducir nuevos estándares cuando existan iniciativas ya desarrolladas que cubran los objetivos de la orden ejecutiva.
+
+    p.mb-5 De acuerdo con el NIST (s.f) “el marco de trabajo es una guía voluntaria, basada en estándares, directrices y prácticas existentes para que las organizaciones de infraestructura crítica gestionen mejor y reduzcan el riesgo de ciberseguridad. Además, se diseñó para fomentar las comunicaciones de gestión del riesgo y la seguridad cibernética entre los interesados internos y externos de la organización“. Eso quiere decir que los objetivos del marco de trabajo en su implementación en una organización se podrían catalogar en los siguientes puntos:
+
+    h5.mb-5 Todo esto enmarcado en un enfoque orientado a la gestión del riesgo.
+
+    figure.mb-5
+      img(src='@/assets/curso/16.svg', style="width: 900px" alt='Imagen que presenta los puntos a tener en cuenta en la implementación de los objetivos del marco de trabajo en una organización.').m-auto
     
     .titulo-sexto.color-acento-botones.d-flex.align-items-center(data-aos="fade-right")
       .titulo-principal__numero.p-3
@@ -219,7 +199,7 @@
       h5 Figura 1.
       span ISO / IEC 27001: 2013
     figure(data-aos="zoom-in-up")
-      img(src='@/assets/curso/17.svg', alt='Imagen que presenta el marco que presenta ISO denominado ISO / IEC 27001: 2013.')
+      img(src='@/assets/curso/17.svg', alt='Imagen que presenta el marco ISO denominado ISO / IEC 27001: 2013.')
     br
     br
     .titulo-sexto.color-acento-botones.d-flex.align-items-center(data-aos="fade-right")
@@ -239,7 +219,7 @@
     .titulo-sexto.color-acento-botones.d-flex.align-items-center(data-aos="fade-right")
       .titulo-principal__numero.p-3
         span.text-white.h5 4
-      h5 El cuarto y último marco del contenido a revisar es el marco HITRUST CSF <i>(Health Information Trust Alliance - Cybersecurity Framework).</i>
+      h5 El cuarto y último marco del contenido a revisar es el marco HITRUST CSF (Health Information Trust Alliance - Cybersecurity Framework).
     p.mb-5 <b>HITRUST CSF</b> fue desarrollado por <i>Health Information Trust Alliance</i> (HITRUST) y es el marco de seguridad más adoptado en la industria de la salud de los Estados Unidos. <b>HITRUST</b> originalmente desarrolló su CSF (<i>Cybersecurity Framework</i> – Marco de ciberseguridad) para enfocarse en elementos clave y riesgos inherentes a la industria de la salud, como las consideraciones de <b>HIPAA</b> (Ley de Responsabilidad y Portabilidad de Seguros de Salud) pero desde entonces han actualizado el marco con controles más amplios que se aplicarían a cualquier organización.
       br
       br
@@ -277,7 +257,7 @@
           figure
             img(src='@/assets/curso/22.svg', alt='Texto que describa la imagen')
         .col-md-9.mb-4.mb-md-0
-          p Tiene por principal objetivo convencer al usuario de que visite un sitio web malicioso e ilegítimo redireccionando la URL legítima u original a una URL ilegítima, una vez dentro, el objetivo de los cibercriminales es conseguir que el usuario les dé su información personal. 
+          p Tiene por principal objetivo convencer al usuario de que visite un sitio web malicioso e ilegítimo, redireccionando la URL legítima u original a una URL ilegítima, una vez dentro, el objetivo de los cibercriminales es conseguir que el usuario les dé su información personal. 
       .row(titulo="<em>Phishing</em>").px-5
         .col-md-3
           figure
@@ -310,16 +290,16 @@
           p Un virus informático es un tipo de programa o código malicioso escrito para modificar el funcionamiento de un equipo, siempre está oculto en un #[em software] o sitio web legítimo, infecta el ordenador y puede extenderse a todos los que se encuentran en su lista de contactos.
     #t_1_4.titulo-segundo(data-aos="fade-right")
       h2 1.4 Vulnerabilidades 
-    p.mb-5 Una vulnerabilidad informática es una debilidad en el #[em software] o en el #[em hardware] que permite a un posible atacante comprometer cualquiera de los elementos de la tríada de la seguridad, como es la integridad, disponibilidad o confidencialidad del sistema o de los datos que procesa.
+    p.mb-4 Una vulnerabilidad informática es una debilidad en el #[em software] o en el #[em hardware] que permite a un posible atacante comprometer cualquiera de los elementos de la tríada de la seguridad, como es la integridad, disponibilidad o confidencialidad del sistema o de los datos que procesa.
     .row.mb-5.align-items-end
-      .col-md-6(data-aos="fade-right")
+      .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
         img(src='@/assets/curso/28.svg')
-      .col-md-6(data-aos="fade-left")
+      .col-lg-6(data-aos="fade-left")
         p.mb-0 Por errores en la configuración o parametrización de las herramientas que normalmente utilizamos por ejemplo al utilizar contraseñas no seguras, al no actualizar el sistema operativo o antivirus de nuestros dispositivos.
           br
           br
           |Para clasificarlos a continuación, se mencionan algunas de las vulnerabilidades más comunes: 
-    .row.mb-5.justify-content-center
+    .row.justify-content-center
       .col-lg-2.center-figure.h-100
         .figure
           img(src='@/assets/curso/29.svg').mb-3
@@ -409,12 +389,12 @@
         p.mb-5 Observe que siempre realizamos énfasis en la tríada de la información como principio para el tratamiento de los datos; esta clasificación también revisa el impacto que tendrá cada uno de los principios en caso de ser vulnerado y el impacto en las personas o empresas en el suceso.
         .cajon.color-acento-contenido.bg__1-claro.p-5.mb-4(style="background-color:#CCE4FB;")
           p Debemos tener siempre presentes los riesgos informáticos, los cuales son todo tipo de vulnerabilidades, amenazas que pueden ocurrir sin previo aviso y producir numerosas pérdidas para las empresas o las personas. Los riesgos más perjudiciales son a las tecnologías de información y comunicaciones, como por ejemplo, la pérdida de datos debido a daño en los discos, virus informáticos, entre otros.
-      .col-lg-5(data-aos="fade-left")
+      .col-lg-5.d-none.d-lg-block(data-aos="fade-left")
         img(src='@/assets/curso/37.svg' style='width: 369px').m-auto
     .row.mb-5.align-items-end
-      .col-md-6(data-aos="fade-right")
+      .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
         img(src='@/assets/curso/38.svg')
-      .col-md-6(data-aos="fade-left")
+      .col-lg-6(data-aos="fade-left")
         p.mb-0 Cada amenaza es diferente y no todas tienen el mismo impacto en el sistema de seguridad de los sistemas informáticos, hay exigencias elevadas y exigencias que no son tan peligrosas, pero el sistema de información y riesgo se debe encargar de todas estas amenazas de manera consciente y firme, es por eso que las partes trabajan en integrar los tipos de riesgo en tres niveles, estableciendo de esa forma la exigencia o nivel en función de la seguridad.
     .tarjeta.bg__4-claro.p-4.mb-5(style="background-color:#fff3c7 !important;")
       SlyderA
@@ -434,12 +414,12 @@
             figure.m-auto.col-8.col-md-8.col-lg-12
               img(src='@/assets/curso/40.svg')
         .row.p-4.justify-content-center
-          .col-lg-5.mb-4.mb-lg-0(style="place-self:center;")
+          .col-lg-5.order-2.order-lg-1(style="place-self:center;")
             figure.m-auto.col-8.col-md-8.col-lg-12
               img(src='@/assets/curso/41.svg')
-          .col-lg-5(style="place-self:center;")
-            h4 Bajo
-            p Cuando una amenaza no representa un ataque importante en los procesos de una organización o institución.
+          .col-lg-5.mb-4.mb-lg-0.order-1.order-lg-2(style="place-self:center;")
+            h4 Alto
+            p Se considera un riesgo alto cuando la amenaza representa gran impacto dentro de la institución u organización.
     .row.mb-5.justify-content-center
       .col-lg-10
         .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
@@ -490,7 +470,7 @@
           p Hurtos de activos como aparatos tecnológicos (computadoras, celulares, PDA, tabletas, entre otros dispositivos que contienen información personal y/o financiera).
     p.mb-5 En los protocolos de seguridad de la información ya determinamos los riesgos y las amenazas que pueden atacar tanto los recursos físicos como digitales, ahora nos preguntamos:
     .row.mb-5
-      .col-lg-7(data-aos="fade-right")
+      .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
         img(src='@/assets/curso/49.svg')
       .col-lg-5(data-aos="fade-left")
         p Para determinar cómo tratarlo y las acciones de mitigación a realizar, tenga en cuenta lo siguiente:

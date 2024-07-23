@@ -187,7 +187,7 @@ export default {
     {
       termino: 'Vulnerabilidad',
       significado:
-        'Es una debilidad o fallo en un sistema de información que pone en riesgo la seguridad de la información pudiendo permitir que un atacante pueda comprometer la integridad, disponibilidad o confidencialidad de la misma.',
+        'Es una debilidad o fallo en un sistema de información que pone en riesgo la seguridad de la información, pudiendo permitir que un atacante pueda comprometer la integridad, disponibilidad o confidencialidad de la misma.',
     },
   ],
   referencias: [
@@ -208,7 +208,7 @@ export default {
     },
     {
       referencia:
-        'Soriano, M. (2014). Seguridad en redes y seguridad de la información. Obtenido de http://improvet.cvut.  ',
+        'Soriano, M. (2014). Seguridad en redes y seguridad de la información. http://improvet.cvut. ',
       link:
         'https://www.academia.edu/40156122/Seguridad_en_redes_y_seguridad_de_la_informaci%C3%B3n',
     },
@@ -246,7 +246,7 @@ export default {
         },
         {
           nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Asesor metodológico y pedagógico',
+          cargo: 'Asesor Metodológico y Pedagógico',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
@@ -267,7 +267,7 @@ export default {
         },
         {
           nombre: 'Yuly Andrea Rey Quiñonez',
-          cargo: 'Diseño web',
+          cargo: 'Diseño Web',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
@@ -317,12 +317,12 @@ export default {
         },
         {
           nombre: 'Margarita Marcela Medrano Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
